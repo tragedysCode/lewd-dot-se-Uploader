@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="lewd_dot_se_Uploader.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="token" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Token</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

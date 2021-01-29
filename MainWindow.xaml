@@ -1,0 +1,24 @@
+﻿<Window x:Class="lewd_dot_se_Uploader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lewd_dot_se_Uploader"
+        mc:Ignorable="d"
+        Title="Lewd Dot SE Uploader" Height="450" Width="800" WindowStyle="None" Icon="lewd.ico" ResizeMode="NoResize" Background="#FF14141E" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown" Loaded="Window_Loaded">
+    <Grid>
+        <ToolBarPanel HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="800">
+            <Button x:Name="exit" Content="X" HorizontalAlignment="Left" Width="65" Margin="735,0,0,0" Height="40" Background="{x:Null}" Foreground="#FFE863D6" FontWeight="Bold" FontSize="14" BorderBrush="{x:Null}" Click="exit_Click"/>
+        </ToolBarPanel>
+        <TextBox x:Name="token" HorizontalAlignment="Left" Height="30" Margin="80,150,0,0" TextWrapping="Wrap" Text="Token" VerticalAlignment="Top" Width="175" FontWeight="Bold" Background="{x:Null}" SelectionBrush="#FFE863D6" Foreground="#FFE863D6" BorderBrush="#FFE863D6" BorderThickness="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" CaretBrush="#FFE863D6"/>
+        <Image HorizontalAlignment="Left" Height="170" Margin="600,280,0,0" VerticalAlignment="Top" Width="200" Source="lewdWaifu.png"/>
+        <Button x:Name="upload" Content="Upload" HorizontalAlignment="Left" Margin="80,250,0,0" VerticalAlignment="Top" Width="175" Height="45" Foreground="#FFE863D6" Background="{x:Null}" BorderBrush="#FFE863D6" FontWeight="Bold" BorderThickness="2" Click="upload_Click"/>
+        <Popup/>
+        <Popup/>
+        <Image HorizontalAlignment="Left" Height="69.817" Margin="0,398.018,0,-17.835" VerticalAlignment="Top" Width="78.049" Source="github.png" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="github" Content="Button" HorizontalAlignment="Left" Margin="10,398.018,0,0" VerticalAlignment="Top" Width="54.024" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="51.982" Click="github_Click"/>
+        <Image HorizontalAlignment="Left" Height="51.982" Margin="83.049,398.018,0,0" VerticalAlignment="Top" Width="51.982" Source="discord.png" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="discord" Content="Button" HorizontalAlignment="Left" Margin="83.049,398.018,0,0" VerticalAlignment="Top" Width="51.982" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Height="51.982" Click="discord_Click"/>
+
+    </Grid>
+</Window>

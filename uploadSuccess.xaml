@@ -1,0 +1,18 @@
+﻿<Window x:Class="lewd_dot_se_Uploader.uploadSuccess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lewd_dot_se_Uploader"
+        mc:Ignorable="d"
+        Title="Sucess !" Height="450" Width="800" Background="#EF14141E" WindowStyle="None" Icon="lewd.ico" WindowStartupLocation="CenterOwner" MouseDown="Window_MouseDown">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="310" VerticalAlignment="Top" Width="160" Source="lewdWaifu2.png" Margin="0,75,0,0"/>
+        <Label x:Name="lol" Content="Link Copied to Clipboard" HorizontalAlignment="Left" Margin="299.811,135.331,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="185.298" Foreground="#FFE863D6" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="37.941">
+        </Label>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="310,290,0,0" VerticalAlignment="Top" Width="165" Height="45" Foreground="#FFE863D6" BorderBrush="#FFE863D6" Background="{x:Null}" FontWeight="Bold" FontSize="16" BorderThickness="2" RenderTransformOrigin="0.5,0.5" Click="Button_Click"/>
+        <Label x:Name="lol_Copy" Content="Upload Successful !" HorizontalAlignment="Left" Margin="280,77.01,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="225" Foreground="#FFE863D6" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="90">
+        </Label>
+
+    </Grid>
+</Window>
