@@ -100,7 +100,7 @@ namespace lewd_dot_se_Uploader
 
         private void github_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("github.com");
+            Process.Start("https://github.com/tragedysCode/lewd-dot-se-Uploader");
         }
     }
 }
